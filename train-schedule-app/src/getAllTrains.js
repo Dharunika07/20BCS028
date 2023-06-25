@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const getAllTrains = async () => {
   try {
-    const response = await axios.get('http://104.211.219.98/train/trains', {
+    const response = await axios.get('http://104.211.219.98/train/s', {
       headers: {
         Authorization: 'Bearer nSFqRI',
       },
